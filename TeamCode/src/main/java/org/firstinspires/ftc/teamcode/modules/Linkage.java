@@ -43,7 +43,8 @@ public class Linkage extends Module {
   
   @Override
   public void addAdvancedTelemetry() {
-  
+    telemetry.addData("Linkage current pos:", motor.getCurrentPosition());
+    telemetry.addData("Linkage target pos:", targetPosition);
   }
   
 }
