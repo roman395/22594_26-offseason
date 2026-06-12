@@ -8,6 +8,7 @@ public class HardwareNames {
   public static String forwardOdometry = "";//TODO fill
   public static String strafeOdometry = "";//TODO fill
   public static String imu = "imu";
+  public static String linkage = "linkage";
   
 
 }
