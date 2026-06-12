@@ -44,5 +44,10 @@ public class Drivetrain extends Module {
   public void addTelemetry() {
   
   }
-  
+  @Override
+  public void addAdvancedTelemetry(){
+    telemetry.addData("Robot x:", follower.getPose().getX());
+    telemetry.addData("Robot y:", follower.getPose().getY());
+    telemetry.addData("Robot heading:",Math.toDegrees(follower.getPose().getHeading()));
+  }
 }
