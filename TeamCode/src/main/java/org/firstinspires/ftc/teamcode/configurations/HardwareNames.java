@@ -9,6 +9,7 @@ public class HardwareNames {
   public static String strafeOdometry = "";//TODO fill
   public static String imu = "imu";
   public static String linkage = "linkage";
-  
+  public static String leftLiftMotor = "leftLift";
+  public static String rightLiftMotor = "tightLift";
 
 }
